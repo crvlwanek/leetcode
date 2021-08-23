@@ -1,6 +1,6 @@
 # 91. Decode Ways
 
-def num_decodings(self, s: str) -> int:
+def num_decodings(s: str) -> int:
   
   def is_nonzero(index):
     return s[index] != '0'

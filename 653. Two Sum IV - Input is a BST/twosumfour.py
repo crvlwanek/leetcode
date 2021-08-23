@@ -1,6 +1,6 @@
 # 653. Two Sum IV - Input is a BST
 
-def findTarget(root: Optional[TreeNode], k: int) -> bool:
+def findTarget(root, k: int) -> bool:
         
   def check_node(node, seen=set()):
     if not node:

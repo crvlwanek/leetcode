@@ -1,6 +1,9 @@
 # 36. Valid Sudoku
 
-def isValidSudoku(self, board: List[List[str]]) -> bool:
+from typing import List
+
+
+def isValidSudoku(board: List[List[str]]) -> bool:
 
   def new_set() -> set[str]:
     return {str(n) for n in range(1, 10)}

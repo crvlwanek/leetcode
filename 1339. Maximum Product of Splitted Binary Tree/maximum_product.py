@@ -1,6 +1,6 @@
 # 1339. Maximum Product of Splitted Binary Tree
 
-def maxProduct(self, root: Optional[TreeNode]) -> int:
+def maxProduct(root) -> int:
          
   def subtree_sum(node):
     if not node:
