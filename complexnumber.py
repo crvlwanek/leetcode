@@ -23,3 +23,9 @@ def complexNumberBuiltIn(self, num1: str, num2: str) -> str:
 
   num3 = convert(num1) * convert(num2)
   return f"{num3.real:.0f}+{num3.imag:.0f}i"
+
+def complexNumberReplace(self, num1: str, num2: str) -> str:
+  num3 = complex(num1.replace("+-", "-").replace("i", "j")) * \
+          complex(num2.replace("+-", "-").replace("i", "j"))
+
+  return f"{num3.real:.0f}+{num3.imag:.0f}i"
