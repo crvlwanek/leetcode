@@ -14,3 +14,12 @@ def complexNumberMultiply(num1: str, num2: str) -> str:
   c, d = to_tuple(num2)
   real, imaginary = (a*c - b*d), (a*d + b*c)
   return to_string(real, imaginary)
+
+def complexNumberBuiltIn(self, num1: str, num2: str) -> str:
+  
+  def convert(num: string) -> complex:
+    r, i = num.split("+")
+    return complex(int(r), int(i.split("i")[0]))
+
+  num3 = convert(num1) * convert(num2)
+  return f"{num3.real:.0f}+{num3.imag:.0f}i"
