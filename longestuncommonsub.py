@@ -21,3 +21,16 @@ def findLUSlength(strs: List[str]) -> int:
   if not good:
     return -1
   return max(len(item) for item in good)
+
+def findLUSlength2(strs: List[str]) -> int:
+
+  def isSubsequence(s1: str, s2: str) -> bool:
+    s2 = iter(s2)
+    return all(char in s2 for char in s1)
+
+  strs.sort(key=len, reverse=True)
+  for i, s1 in enumerate(strs):
+    if all(not isSubsequence(s1, s2) for j, s2 in enumerate(strs) if i != j):
+      return len(s1)
+
+  return -1
