@@ -1,6 +1,6 @@
 # LeetCode Problems
 
-This is a collection of solutions I have written to various LeetCode problems. Below you can find a listing of each problem, with links to the problem description as well as each solution. 
+This is a collection of solutions I have written to various LeetCode problems. Below you can find a listing of each problem with links to the problem description, as well the solutions.
 
 ## Problems
 
