@@ -19,3 +19,18 @@ def reverseOnlyLetters(s: str) -> str:
       r -= 1
 
   return "".join(output)
+
+def reverseOnlyLetters2(s: str) -> str:
+  output = list(s)
+  l, r = 0, len(s) - 1
+  while l <= r:
+    if not s[l].isalpha():
+      l += 1
+    elif not s[r].isalpha():
+      r -= 1
+    else:
+      output[l], output[r] = output[r], output[l]
+      l += 1
+      r -= 1
+
+  return "".join(output)
