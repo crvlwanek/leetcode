@@ -23,7 +23,7 @@ def reverseOnlyLetters(s: str) -> str:
 def reverseOnlyLetters2(s: str) -> str:
   output = list(s)
   l, r = 0, len(s) - 1
-  while l <= r:
+  while l < r:
     if not s[l].isalpha():
       l += 1
     elif not s[r].isalpha():
