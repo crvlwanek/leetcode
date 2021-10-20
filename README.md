@@ -7,7 +7,7 @@ This is a collection of solutions I have written to various LeetCode problems. B
 [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) -- [Python](https://github.com/crvlwanek/leetcode/blob/master/0036.%20Valid%20Sudoku/validsudoku.py)  
 [91. Decode Ways](https://leetcode.com/problems/decode-ways/) -- [Python](https://github.com/crvlwanek/leetcode/blob/master/0091.%20Decode%20Ways/decodeways.py), [C++](https://github.com/crvlwanek/leetcode/blob/master/0091.%20Decode%20Ways/decodeways.cpp)  
-[151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/) -- [Python], [Typescript]  
+[151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/) -- [Python](https://github.com/crvlwanek/leetcode/blob/master/0151.%20Reverse%20Words%20in%20a%20String/reverse_words.py), [Typescript](https://github.com/crvlwanek/leetcode/blob/master/0151.%20Reverse%20Words%20in%20a%20String/reverse_words.ts)  
 [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) -- [Python](https://github.com/crvlwanek/leetcode/tree/master/0153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array)  
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) -- [Python](https://github.com/crvlwanek/leetcode/blob/master/0206.%20Reverse%20Linked%20List/reverse_linked_list.py)  
 [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) - [Python](https://github.com/crvlwanek/leetcode/blob/master/0208.%20Implement%20Trie%20(Prefix%20Tree)/trie.py)  
