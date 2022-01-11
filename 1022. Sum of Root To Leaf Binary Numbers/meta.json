@@ -1,0 +1,9 @@
+{
+    "id": 1022,
+    "name": "Sum of Root To Leaf Binary Numbers",
+    "difficulty": 1,
+    "url": "https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/",
+    "tags": [
+        "binary tree", "sum", "binary"
+    ]
+}
