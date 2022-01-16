@@ -1,0 +1,9 @@
+{
+    "id": 849,
+    "name": "Maximize Distance to Closest Person",
+    "difficulty": 2,
+    "url": "https://leetcode.com/problems/maximize-distance-to-closest-person/",
+    "tags": [
+        "maximize", "distance", "array"
+    ]
+}
