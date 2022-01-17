@@ -1,0 +1,9 @@
+{
+    "id": 290,
+    "name": "Word Pattern",
+    "difficulty": 1,
+    "url": "https://leetcode.com/problems/word-pattern/",
+    "tags": [
+        "string", "pattern", "match"
+    ]
+}
